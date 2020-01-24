@@ -16,4 +16,6 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name : test
-      run : pwd
+      run : |
+        pwd
+        ls -lrt
